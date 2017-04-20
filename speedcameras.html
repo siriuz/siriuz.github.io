@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_44752a0d5f09466786fa5bdd615375d7 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_44752a0d5f09466786fa5bdd615375d7" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_44752a0d5f09466786fa5bdd615375d7 = L.map(
+                                  'map_44752a0d5f09466786fa5bdd615375d7',
+                                  {center: [1.43373404063483,103.785245083137],
+                                  zoom: 10,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d02490b6a9b047f1bbdda26280c91d77 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_44752a0d5f09466786fa5bdd615375d7);
+
+        
+    
+
+            var marker_399a505d99e5469b8562815a3e2313c3 = L.marker(
+                [1.363833,103.827952],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_41ea126f5dc94d7a9613c75a4a3e1a51 = L.popup({maxWidth: '300'});
+
+            
+                var html_f669a7c97a284663a94ebafa599e8a5c = $('<div id="html_f669a7c97a284663a94ebafa599e8a5c" style="width: 100.0%; height: 100.0%;">Laser Camera @ Upper Thomson Road</div>')[0];
+                popup_41ea126f5dc94d7a9613c75a4a3e1a51.setContent(html_f669a7c97a284663a94ebafa599e8a5c);
+            
+
+            marker_399a505d99e5469b8562815a3e2313c3.bindPopup(popup_41ea126f5dc94d7a9613c75a4a3e1a51);
+
+            
+        
+    
+
+            var marker_9c9f19713abf4d40b3d5bec88599e687 = L.marker(
+                [1.436309,103.806888],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_185fa95788c74519bc560041f6b39177 = L.popup({maxWidth: '300'});
+
+            
+                var html_8bb7168c03044da69dbee83281045c06 = $('<div id="html_8bb7168c03044da69dbee83281045c06" style="width: 100.0%; height: 100.0%;">Laser Camera @ Woodlands Avenue 12</div>')[0];
+                popup_185fa95788c74519bc560041f6b39177.setContent(html_8bb7168c03044da69dbee83281045c06);
+            
+
+            marker_9c9f19713abf4d40b3d5bec88599e687.bindPopup(popup_185fa95788c74519bc560041f6b39177);
+
+            
+        
+    
+
+            var marker_9a5aa212a4544a27883c2e896f31ade3 = L.marker(
+                [1.340429,103.832194],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_df96cd81c8544366adac539dd1429324 = L.popup({maxWidth: '300'});
+
+            
+                var html_34adafd475554c57a5866f116eac5e51 = $('<div id="html_34adafd475554c57a5866f116eac5e51" style="width: 100.0%; height: 100.0%;">Laser Camera @ Lornie Road</div>')[0];
+                popup_df96cd81c8544366adac539dd1429324.setContent(html_34adafd475554c57a5866f116eac5e51);
+            
+
+            marker_9a5aa212a4544a27883c2e896f31ade3.bindPopup(popup_df96cd81c8544366adac539dd1429324);
+
+            
+        
+    
+
+            var marker_ca753275b5d14156b4d15890558e3b7a = L.marker(
+                [1.34036,103.832183],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_8f26c5caaff04304b7fa3ecb83393cad = L.popup({maxWidth: '300'});
+
+            
+                var html_5a0dcb56612943198bb92fd7e77dc792 = $('<div id="html_5a0dcb56612943198bb92fd7e77dc792" style="width: 100.0%; height: 100.0%;">Laser Camera @ Lornie Road</div>')[0];
+                popup_8f26c5caaff04304b7fa3ecb83393cad.setContent(html_5a0dcb56612943198bb92fd7e77dc792);
+            
+
+            marker_ca753275b5d14156b4d15890558e3b7a.bindPopup(popup_8f26c5caaff04304b7fa3ecb83393cad);
+
+            
+        
+    
+
+            var marker_24bd48d19ee64770876f0dde2fa5ec3e = L.marker(
+                [1.344884,103.774748],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_841db0d3ab7f4c8fb199825f02385dd0 = L.popup({maxWidth: '300'});
+
+            
+                var html_044b2c88aaaf41beb3732c8a3c1fde95 = $('<div id="html_044b2c88aaaf41beb3732c8a3c1fde95" style="width: 100.0%; height: 100.0%;">Laser Camera @ Upper Bukit Timah Road</div>')[0];
+                popup_841db0d3ab7f4c8fb199825f02385dd0.setContent(html_044b2c88aaaf41beb3732c8a3c1fde95);
+            
+
+            marker_24bd48d19ee64770876f0dde2fa5ec3e.bindPopup(popup_841db0d3ab7f4c8fb199825f02385dd0);
+
+            
+        
+    
+
+            var marker_c85e7f023083494c894ac072b76fa40e = L.marker(
+                [1.320817,103.763858],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_3fb79bca3bac4ebfa07177fefd1104c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_de4c39f4832640c09e5ce9275f608c75 = $('<div id="html_de4c39f4832640c09e5ce9275f608c75" style="width: 100.0%; height: 100.0%;">Laser Camera @ Clementi Avenue 6</div>')[0];
+                popup_3fb79bca3bac4ebfa07177fefd1104c5.setContent(html_de4c39f4832640c09e5ce9275f608c75);
+            
+
+            marker_c85e7f023083494c894ac072b76fa40e.bindPopup(popup_3fb79bca3bac4ebfa07177fefd1104c5);
+
+            
+        
+    
+
+            var marker_8f7fb8d0d6664817ac5b31eebf9c555a = L.marker(
+                [1.320837,103.763787],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_3dc250249330423ba57c6b97232d605c = L.popup({maxWidth: '300'});
+
+            
+                var html_8e489437c07645efbcf58c3021492ff4 = $('<div id="html_8e489437c07645efbcf58c3021492ff4" style="width: 100.0%; height: 100.0%;">Laser Camera @ Clementi Avenue 6</div>')[0];
+                popup_3dc250249330423ba57c6b97232d605c.setContent(html_8e489437c07645efbcf58c3021492ff4);
+            
+
+            marker_8f7fb8d0d6664817ac5b31eebf9c555a.bindPopup(popup_3dc250249330423ba57c6b97232d605c);
+
+            
+        
+    
+
+            var marker_0d3de2b87b744034989d339b2da4735e = L.marker(
+                [1.289245,103.773392],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_c748c6e02f0d49dd81cce4836ff7e2d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_0728402556a246019c86c6e9176659b0 = $('<div id="html_0728402556a246019c86c6e9176659b0" style="width: 100.0%; height: 100.0%;">Laser Camera @ West Coast Highway</div>')[0];
+                popup_c748c6e02f0d49dd81cce4836ff7e2d1.setContent(html_0728402556a246019c86c6e9176659b0);
+            
+
+            marker_0d3de2b87b744034989d339b2da4735e.bindPopup(popup_c748c6e02f0d49dd81cce4836ff7e2d1);
+
+            
+        
+    
+
+            var marker_4dab7acf81184672bedac8cae69d516f = L.marker(
+                [1.289383,103.773434],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_35587f0cf3584c39bd84eaccb4ddfc91 = L.popup({maxWidth: '300'});
+
+            
+                var html_b796d4aedae442c2b11f080f664549d8 = $('<div id="html_b796d4aedae442c2b11f080f664549d8" style="width: 100.0%; height: 100.0%;">Laser Camera @ West Coast Highway</div>')[0];
+                popup_35587f0cf3584c39bd84eaccb4ddfc91.setContent(html_b796d4aedae442c2b11f080f664549d8);
+            
+
+            marker_4dab7acf81184672bedac8cae69d516f.bindPopup(popup_35587f0cf3584c39bd84eaccb4ddfc91);
+
+            
+        
+    
+
+            var marker_4145edf41cb1427889c7a09bfefc58c2 = L.marker(
+                [1.314275,103.712791],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_3fb26e29b7e141d799db24af247f77df = L.popup({maxWidth: '300'});
+
+            
+                var html_5926bcfb1a18416ab2accc5455ab4e5b = $('<div id="html_5926bcfb1a18416ab2accc5455ab4e5b" style="width: 100.0%; height: 100.0%;">Laser Camera @ Jalan Buroh</div>')[0];
+                popup_3fb26e29b7e141d799db24af247f77df.setContent(html_5926bcfb1a18416ab2accc5455ab4e5b);
+            
+
+            marker_4145edf41cb1427889c7a09bfefc58c2.bindPopup(popup_3fb26e29b7e141d799db24af247f77df);
+
+            
+        
+    
+
+            var marker_1364726020a545cba010c337cc9d023a = L.marker(
+                [1.300676,103.863101],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_00d5d2c541eb4112ba1eb090902d8fa9 = L.popup({maxWidth: '300'});
+
+            
+                var html_b029b94e1fae4f4e83c33fb40cb8509f = $('<div id="html_b029b94e1fae4f4e83c33fb40cb8509f" style="width: 100.0%; height: 100.0%;">Laser Camera @ Nicoll Highway</div>')[0];
+                popup_00d5d2c541eb4112ba1eb090902d8fa9.setContent(html_b029b94e1fae4f4e83c33fb40cb8509f);
+            
+
+            marker_1364726020a545cba010c337cc9d023a.bindPopup(popup_00d5d2c541eb4112ba1eb090902d8fa9);
+
+            
+        
+    
+
+            var marker_eecccc722e9f446eb001f860aad16ba6 = L.marker(
+                [1.300587,103.863147],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_d3507432018c4fde87f61909e8d87929 = L.popup({maxWidth: '300'});
+
+            
+                var html_874946e4cfc24002aec2772c45a8bf1b = $('<div id="html_874946e4cfc24002aec2772c45a8bf1b" style="width: 100.0%; height: 100.0%;">Laser Camera @ Nicoll Highway</div>')[0];
+                popup_d3507432018c4fde87f61909e8d87929.setContent(html_874946e4cfc24002aec2772c45a8bf1b);
+            
+
+            marker_eecccc722e9f446eb001f860aad16ba6.bindPopup(popup_d3507432018c4fde87f61909e8d87929);
+
+            
+        
+    
+
+            var marker_d5cad697a64e4ff199b1c0e26b191de8 = L.marker(
+                [1.43043,103.787411],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_861dbe0b2210474ca79b0eaed3763560 = L.popup({maxWidth: '300'});
+
+            
+                var html_27dcbe4f06c44116b1c8638b70cf813e = $('<div id="html_27dcbe4f06c44116b1c8638b70cf813e" style="width: 100.0%; height: 100.0%;">Laser Camera @ Woodlands Avenue 2</div>')[0];
+                popup_861dbe0b2210474ca79b0eaed3763560.setContent(html_27dcbe4f06c44116b1c8638b70cf813e);
+            
+
+            marker_d5cad697a64e4ff199b1c0e26b191de8.bindPopup(popup_861dbe0b2210474ca79b0eaed3763560);
+
+            
+        
+    
+
+            var marker_9fbe91da24194def915302f639b2c618 = L.marker(
+                [1.430453,103.787296],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_763a66e704a4495487384f7303fcf0a1 = L.popup({maxWidth: '300'});
+
+            
+                var html_c493ead3966d4c8588a5eeb21a064406 = $('<div id="html_c493ead3966d4c8588a5eeb21a064406" style="width: 100.0%; height: 100.0%;">Laser Camera @ Woodlands Avenue 2</div>')[0];
+                popup_763a66e704a4495487384f7303fcf0a1.setContent(html_c493ead3966d4c8588a5eeb21a064406);
+            
+
+            marker_9fbe91da24194def915302f639b2c618.bindPopup(popup_763a66e704a4495487384f7303fcf0a1);
+
+            
+        
+    
+
+            var marker_ad822cbbf1e748bca2ffe6f706a56601 = L.marker(
+                [1.348413,103.941928],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_09fdaff2fd12433bb024ad1702a88673 = L.popup({maxWidth: '300'});
+
+            
+                var html_ec6b005fa73e4c6fb71346f3765cf660 = $('<div id="html_ec6b005fa73e4c6fb71346f3765cf660" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Avenue 5</div>')[0];
+                popup_09fdaff2fd12433bb024ad1702a88673.setContent(html_ec6b005fa73e4c6fb71346f3765cf660);
+            
+
+            marker_ad822cbbf1e748bca2ffe6f706a56601.bindPopup(popup_09fdaff2fd12433bb024ad1702a88673);
+
+            
+        
+    
+
+            var marker_71ceb06407ad4843ae59159d44bd8bae = L.marker(
+                [1.348435,103.942033],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_afa3f5fe72d74513ba3f40fd3eaac605 = L.popup({maxWidth: '300'});
+
+            
+                var html_4cba17592d9f45d88ca826598104424d = $('<div id="html_4cba17592d9f45d88ca826598104424d" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Avenue 5</div>')[0];
+                popup_afa3f5fe72d74513ba3f40fd3eaac605.setContent(html_4cba17592d9f45d88ca826598104424d);
+            
+
+            marker_71ceb06407ad4843ae59159d44bd8bae.bindPopup(popup_afa3f5fe72d74513ba3f40fd3eaac605);
+
+            
+        
+    
+
+            var marker_6b076ada714742b49b8611131f52baa9 = L.marker(
+                [1.356611,103.783417],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_1ebda34064ed4ebe94c5ec35dfa3c767 = L.popup({maxWidth: '300'});
+
+            
+                var html_28d45119a6a046938ac3c31ae575b755 = $('<div id="html_28d45119a6a046938ac3c31ae575b755" style="width: 100.0%; height: 100.0%;">Laser Camera @ Bukit Timah Expressway</div>')[0];
+                popup_1ebda34064ed4ebe94c5ec35dfa3c767.setContent(html_28d45119a6a046938ac3c31ae575b755);
+            
+
+            marker_6b076ada714742b49b8611131f52baa9.bindPopup(popup_1ebda34064ed4ebe94c5ec35dfa3c767);
+
+            
+        
+    
+
+            var marker_31a23204bba645e7ac138f8c1866f16e = L.marker(
+                [1.35675,103.783577],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_bf7d97a2ad4447368f3479adce2647b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_6f7b2452cfdd4131800cdf9a543dde02 = $('<div id="html_6f7b2452cfdd4131800cdf9a543dde02" style="width: 100.0%; height: 100.0%;">Laser Camera @ Bukit Timah Expressway</div>')[0];
+                popup_bf7d97a2ad4447368f3479adce2647b8.setContent(html_6f7b2452cfdd4131800cdf9a543dde02);
+            
+
+            marker_31a23204bba645e7ac138f8c1866f16e.bindPopup(popup_bf7d97a2ad4447368f3479adce2647b8);
+
+            
+        
+    
+
+            var marker_0648e186e33c4ca193c3b439ca7af7b4 = L.marker(
+                [1.30394,103.918695],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_866b2b776d4e42f7878dedd026b7d915 = L.popup({maxWidth: '300'});
+
+            
+                var html_1a46eb6ae692478fa2179c4f2a854dc4 = $('<div id="html_1a46eb6ae692478fa2179c4f2a854dc4" style="width: 100.0%; height: 100.0%;">Laser Camera @ East Coast Parkway</div>')[0];
+                popup_866b2b776d4e42f7878dedd026b7d915.setContent(html_1a46eb6ae692478fa2179c4f2a854dc4);
+            
+
+            marker_0648e186e33c4ca193c3b439ca7af7b4.bindPopup(popup_866b2b776d4e42f7878dedd026b7d915);
+
+            
+        
+    
+
+            var marker_376d885b64ce486aa5bb7c57a24f9c8c = L.marker(
+                [1.303753,103.918745],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_c3b2f7a0b9d74addbbb531fccd9746e5 = L.popup({maxWidth: '300'});
+
+            
+                var html_533fe200d76944fbb994e871c302c5da = $('<div id="html_533fe200d76944fbb994e871c302c5da" style="width: 100.0%; height: 100.0%;">Laser Camera @ East Coast Parkway</div>')[0];
+                popup_c3b2f7a0b9d74addbbb531fccd9746e5.setContent(html_533fe200d76944fbb994e871c302c5da);
+            
+
+            marker_376d885b64ce486aa5bb7c57a24f9c8c.bindPopup(popup_c3b2f7a0b9d74addbbb531fccd9746e5);
+
+            
+        
+    
+
+            var marker_d5fc9ddb992f4f9580da006ff2326f7b = L.marker(
+                [1.361849,103.858654],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_d5b0c01921fa435f99cee928e1e98d84 = L.popup({maxWidth: '300'});
+
+            
+                var html_97913247f081469cb998dd62ed59f5e4 = $('<div id="html_97913247f081469cb998dd62ed59f5e4" style="width: 100.0%; height: 100.0%;">Laser Camera @ Central Expressway</div>')[0];
+                popup_d5b0c01921fa435f99cee928e1e98d84.setContent(html_97913247f081469cb998dd62ed59f5e4);
+            
+
+            marker_d5fc9ddb992f4f9580da006ff2326f7b.bindPopup(popup_d5b0c01921fa435f99cee928e1e98d84);
+
+            
+        
+    
+
+            var marker_90a6e5911c0046129664339a711d9e7f = L.marker(
+                [1.361775,103.85885],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_d1c4fd1bf421497ba4eac23c8c337bbf = L.popup({maxWidth: '300'});
+
+            
+                var html_5f768cddba92464dbee305332ce848ac = $('<div id="html_5f768cddba92464dbee305332ce848ac" style="width: 100.0%; height: 100.0%;">Laser Camera @ Central Expressway</div>')[0];
+                popup_d1c4fd1bf421497ba4eac23c8c337bbf.setContent(html_5f768cddba92464dbee305332ce848ac);
+            
+
+            marker_90a6e5911c0046129664339a711d9e7f.bindPopup(popup_d1c4fd1bf421497ba4eac23c8c337bbf);
+
+            
+        
+    
+
+            var marker_ed9f2d53988845a18821aaf4c5a1dd56 = L.marker(
+                [1.388056,103.743196],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_c27e81e97dbf42f9a513a9dc05d28674 = L.popup({maxWidth: '300'});
+
+            
+                var html_edee41c71ac24340a94f4aec3e744ba6 = $('<div id="html_edee41c71ac24340a94f4aec3e744ba6" style="width: 100.0%; height: 100.0%;">Laser Camera @ Kranji Expressway</div>')[0];
+                popup_c27e81e97dbf42f9a513a9dc05d28674.setContent(html_edee41c71ac24340a94f4aec3e744ba6);
+            
+
+            marker_ed9f2d53988845a18821aaf4c5a1dd56.bindPopup(popup_c27e81e97dbf42f9a513a9dc05d28674);
+
+            
+        
+    
+
+            var marker_e209e610e9404670bdc826189fc2b6b4 = L.marker(
+                [1.387951,103.743281],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_f4a334fef2ff489a82a4745a4bbb0938 = L.popup({maxWidth: '300'});
+
+            
+                var html_8fb4ce08712642529540a72a6206db2f = $('<div id="html_8fb4ce08712642529540a72a6206db2f" style="width: 100.0%; height: 100.0%;">Laser Camera @ Kranji Expressway</div>')[0];
+                popup_f4a334fef2ff489a82a4745a4bbb0938.setContent(html_8fb4ce08712642529540a72a6206db2f);
+            
+
+            marker_e209e610e9404670bdc826189fc2b6b4.bindPopup(popup_f4a334fef2ff489a82a4745a4bbb0938);
+
+            
+        
+    
+
+            var marker_237776f8d83c419db8b33a1bc3ebaeb4 = L.marker(
+                [1.322071,103.670653],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_6f41e48d20b246e498685aee12874446 = L.popup({maxWidth: '300'});
+
+            
+                var html_9610debb17d44e7e9fc1c79da3c19cc7 = $('<div id="html_9610debb17d44e7e9fc1c79da3c19cc7" style="width: 100.0%; height: 100.0%;">Laser Camera @ Ayer Rajah Expressway</div>')[0];
+                popup_6f41e48d20b246e498685aee12874446.setContent(html_9610debb17d44e7e9fc1c79da3c19cc7);
+            
+
+            marker_237776f8d83c419db8b33a1bc3ebaeb4.bindPopup(popup_6f41e48d20b246e498685aee12874446);
+
+            
+        
+    
+
+            var marker_f2604c97f80b4e0e9aac255ad456aff7 = L.marker(
+                [1.322237,103.670623],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_95d3143c60254e7c8e4e05fdd2ded471 = L.popup({maxWidth: '300'});
+
+            
+                var html_df879b91a765420981fd981268416d2f = $('<div id="html_df879b91a765420981fd981268416d2f" style="width: 100.0%; height: 100.0%;">Laser Camera @ Ayer Rajah Expressway</div>')[0];
+                popup_95d3143c60254e7c8e4e05fdd2ded471.setContent(html_df879b91a765420981fd981268416d2f);
+            
+
+            marker_f2604c97f80b4e0e9aac255ad456aff7.bindPopup(popup_95d3143c60254e7c8e4e05fdd2ded471);
+
+            
+        
+    
+
+            var marker_03694a38bd7b4af694b786c156b2fc18 = L.marker(
+                [1.391623,103.909522],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_8ac2477028eb411fab66815ee28a7b14 = L.popup({maxWidth: '300'});
+
+            
+                var html_154876dc370f4b7fadd513ada58b953a = $('<div id="html_154876dc370f4b7fadd513ada58b953a" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Expressway</div>')[0];
+                popup_8ac2477028eb411fab66815ee28a7b14.setContent(html_154876dc370f4b7fadd513ada58b953a);
+            
+
+            marker_03694a38bd7b4af694b786c156b2fc18.bindPopup(popup_8ac2477028eb411fab66815ee28a7b14);
+
+            
+        
+    
+
+            var marker_6da6cbd7790b480d9a00119aa3fa16a6 = L.marker(
+                [1.39151,103.909364],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_fe1d33a8a4f841828931b74ad724fce5 = L.popup({maxWidth: '300'});
+
+            
+                var html_6df9c62d26a44e4c831565dfe7891337 = $('<div id="html_6df9c62d26a44e4c831565dfe7891337" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Expressway</div>')[0];
+                popup_fe1d33a8a4f841828931b74ad724fce5.setContent(html_6df9c62d26a44e4c831565dfe7891337);
+            
+
+            marker_6da6cbd7790b480d9a00119aa3fa16a6.bindPopup(popup_fe1d33a8a4f841828931b74ad724fce5);
+
+            
+        
+    
+
+            var marker_0928a0c4b4c14bda8023307d4b1f09ce = L.marker(
+                [1.401224,103.872369],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_b7422796cf5e4c37a8f4dbf2dfe6e32a = L.popup({maxWidth: '300'});
+
+            
+                var html_23d21c03023943d78a618056fc840108 = $('<div id="html_23d21c03023943d78a618056fc840108" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Expressway</div>')[0];
+                popup_b7422796cf5e4c37a8f4dbf2dfe6e32a.setContent(html_23d21c03023943d78a618056fc840108);
+            
+
+            marker_0928a0c4b4c14bda8023307d4b1f09ce.bindPopup(popup_b7422796cf5e4c37a8f4dbf2dfe6e32a);
+
+            
+        
+    
+
+            var marker_d603b722fe784c468938a1dc71d5e00d = L.marker(
+                [1.401071,103.872368],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_baff52a669a445b8ac2b7630e382a490 = L.popup({maxWidth: '300'});
+
+            
+                var html_a19d02efa4cb4c269de6b985c5f4a1f9 = $('<div id="html_a19d02efa4cb4c269de6b985c5f4a1f9" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Expressway</div>')[0];
+                popup_baff52a669a445b8ac2b7630e382a490.setContent(html_a19d02efa4cb4c269de6b985c5f4a1f9);
+            
+
+            marker_d603b722fe784c468938a1dc71d5e00d.bindPopup(popup_baff52a669a445b8ac2b7630e382a490);
+
+            
+        
+    
+
+            var marker_1e521a43078341a1b539a9e7d513ff19 = L.marker(
+                [1.325253,103.902452],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_1641ffae75874fc78bb74ff66f6ead17 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ee5c3e2b456420f89cf5e3be512cc52 = $('<div id="html_8ee5c3e2b456420f89cf5e3be512cc52" style="width: 100.0%; height: 100.0%;">Laser Camera @ Pan Island Expressway</div>')[0];
+                popup_1641ffae75874fc78bb74ff66f6ead17.setContent(html_8ee5c3e2b456420f89cf5e3be512cc52);
+            
+
+            marker_1e521a43078341a1b539a9e7d513ff19.bindPopup(popup_1641ffae75874fc78bb74ff66f6ead17);
+
+            
+        
+    
+
+            var marker_1d9fffce0b664387874f21c830ea3ef9 = L.marker(
+                [1.325413,103.902418],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_dbf15022fb924799a3602f7b3895906e = L.popup({maxWidth: '300'});
+
+            
+                var html_254caea6e2144f6180920a03a3c47a93 = $('<div id="html_254caea6e2144f6180920a03a3c47a93" style="width: 100.0%; height: 100.0%;">Laser Camera @ Pan Island Expressway</div>')[0];
+                popup_dbf15022fb924799a3602f7b3895906e.setContent(html_254caea6e2144f6180920a03a3c47a93);
+            
+
+            marker_1d9fffce0b664387874f21c830ea3ef9.bindPopup(popup_dbf15022fb924799a3602f7b3895906e);
+
+            
+        
+    
+
+            var marker_86de52b4cadc4fa6995595b39968524c = L.marker(
+                [1.329592,103.84447],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_6f1af871e75f46d7b2216793432f2fdf = L.popup({maxWidth: '300'});
+
+            
+                var html_daf7615414784534b6cc8ce637c039f4 = $('<div id="html_daf7615414784534b6cc8ce637c039f4" style="width: 100.0%; height: 100.0%;">Laser Camera @ Pan Island Expressway</div>')[0];
+                popup_6f1af871e75f46d7b2216793432f2fdf.setContent(html_daf7615414784534b6cc8ce637c039f4);
+            
+
+            marker_86de52b4cadc4fa6995595b39968524c.bindPopup(popup_6f1af871e75f46d7b2216793432f2fdf);
+
+            
+        
+    
+
+            var marker_563518a20be54b2c9034502fc702a0d9 = L.marker(
+                [1.329774,103.844474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_f4a858d082664db381383cdd458c262d = L.popup({maxWidth: '300'});
+
+            
+                var html_22c7c3e449434f43a6c772e1483fbafa = $('<div id="html_22c7c3e449434f43a6c772e1483fbafa" style="width: 100.0%; height: 100.0%;">Laser Camera @ Pan Island Expressway</div>')[0];
+                popup_f4a858d082664db381383cdd458c262d.setContent(html_22c7c3e449434f43a6c772e1483fbafa);
+            
+
+            marker_563518a20be54b2c9034502fc702a0d9.bindPopup(popup_f4a858d082664db381383cdd458c262d);
+
+            
+        
+    
+
+            var marker_2b275b11cfd3455e8e869794692372bd = L.marker(
+                [1.342824,103.686534],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_a4deab22409b40cca1e3cbd870163710 = L.popup({maxWidth: '300'});
+
+            
+                var html_132e12db60484a10a02fa75bfb7e53f6 = $('<div id="html_132e12db60484a10a02fa75bfb7e53f6" style="width: 100.0%; height: 100.0%;">Laser Camera @ Pan Island Expressway</div>')[0];
+                popup_a4deab22409b40cca1e3cbd870163710.setContent(html_132e12db60484a10a02fa75bfb7e53f6);
+            
+
+            marker_2b275b11cfd3455e8e869794692372bd.bindPopup(popup_a4deab22409b40cca1e3cbd870163710);
+
+            
+        
+    
+
+            var marker_63c6aa466bca4b1e9ec1d4da2b452b5d = L.marker(
+                [1.342998,103.686401],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_855eef60bf4e4bde8ee3667c1bafb951 = L.popup({maxWidth: '300'});
+
+            
+                var html_f55b96d3d313494497f70046d990e60f = $('<div id="html_f55b96d3d313494497f70046d990e60f" style="width: 100.0%; height: 100.0%;">Laser Camera @ Pan Island Expressway</div>')[0];
+                popup_855eef60bf4e4bde8ee3667c1bafb951.setContent(html_f55b96d3d313494497f70046d990e60f);
+            
+
+            marker_63c6aa466bca4b1e9ec1d4da2b452b5d.bindPopup(popup_855eef60bf4e4bde8ee3667c1bafb951);
+
+            
+        
+    
+
+            var marker_90e5e6bc97b24167b4dbceb1d199f57c = L.marker(
+                [1.36654,104.003721],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_467b9fabc267462f9ab222e25d932e24 = L.popup({maxWidth: '300'});
+
+            
+                var html_2b81f0c2a6494310a84dd2e0cd8a4e4d = $('<div id="html_2b81f0c2a6494310a84dd2e0cd8a4e4d" style="width: 100.0%; height: 100.0%;">Laser Camera @ Changi Coast Road</div>')[0];
+                popup_467b9fabc267462f9ab222e25d932e24.setContent(html_2b81f0c2a6494310a84dd2e0cd8a4e4d);
+            
+
+            marker_90e5e6bc97b24167b4dbceb1d199f57c.bindPopup(popup_467b9fabc267462f9ab222e25d932e24);
+
+            
+        
+    
+
+            var marker_c2188307fa6a4731ad921b0cf0ec250f = L.marker(
+                [1.353589,103.928005],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_82982aecab814774a2c1c084915c8451 = L.popup({maxWidth: '300'});
+
+            
+                var html_216e7e2d4d154a879caf48963dc90a33 = $('<div id="html_216e7e2d4d154a879caf48963dc90a33" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Avenue 10</div>')[0];
+                popup_82982aecab814774a2c1c084915c8451.setContent(html_216e7e2d4d154a879caf48963dc90a33);
+            
+
+            marker_c2188307fa6a4731ad921b0cf0ec250f.bindPopup(popup_82982aecab814774a2c1c084915c8451);
+
+            
+        
+    
+
+            var marker_25fbd991dff749a48c3126a36c999c78 = L.marker(
+                [1.353661,103.927844],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_3177823fa5544585a1553ac6d215889c = L.popup({maxWidth: '300'});
+
+            
+                var html_4ad37fb311eb4a94a89c91cef9c66ed1 = $('<div id="html_4ad37fb311eb4a94a89c91cef9c66ed1" style="width: 100.0%; height: 100.0%;">Laser Camera @ Tampines Avenue 10</div>')[0];
+                popup_3177823fa5544585a1553ac6d215889c.setContent(html_4ad37fb311eb4a94a89c91cef9c66ed1);
+            
+
+            marker_25fbd991dff749a48c3126a36c999c78.bindPopup(popup_3177823fa5544585a1553ac6d215889c);
+
+            
+        
+    
+
+            var marker_c2974fa013ba499aa52ef1c0ea09cb93 = L.marker(
+                [1.343771,103.850753],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_bc8d001a30d84b2b8a8bba71b9f79c66 = L.popup({maxWidth: '300'});
+
+            
+                var html_c40efd20a30e4cc8bbbc0e99fecf42af = $('<div id="html_c40efd20a30e4cc8bbbc0e99fecf42af" style="width: 100.0%; height: 100.0%;">Laser Camera @ Braddell Road</div>')[0];
+                popup_bc8d001a30d84b2b8a8bba71b9f79c66.setContent(html_c40efd20a30e4cc8bbbc0e99fecf42af);
+            
+
+            marker_c2974fa013ba499aa52ef1c0ea09cb93.bindPopup(popup_bc8d001a30d84b2b8a8bba71b9f79c66);
+
+            
+        
+    
+
+            var marker_bb9453b6483f42ae9afc63735c49b09c = L.marker(
+                [1.343664,103.850738],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_2f94abfd5f73429a8a04dbcf57c4d136 = L.popup({maxWidth: '300'});
+
+            
+                var html_df533bf29f9b428baf7af93205ec2f39 = $('<div id="html_df533bf29f9b428baf7af93205ec2f39" style="width: 100.0%; height: 100.0%;">Laser Camera @ Braddell Road</div>')[0];
+                popup_2f94abfd5f73429a8a04dbcf57c4d136.setContent(html_df533bf29f9b428baf7af93205ec2f39);
+            
+
+            marker_bb9453b6483f42ae9afc63735c49b09c.bindPopup(popup_2f94abfd5f73429a8a04dbcf57c4d136);
+
+            
+        
+    
+
+            var marker_62d7ecfec21e468a962312fe58ca76f8 = L.marker(
+                [1.364797,103.840386],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_8d42dc1dce1b470ea84ad9b0cf070261 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ea03e59a5a54b9e8292c47ddc3d6416 = $('<div id="html_5ea03e59a5a54b9e8292c47ddc3d6416" style="width: 100.0%; height: 100.0%;">Laser Camera @ Ang Mo Kio Avenue 1</div>')[0];
+                popup_8d42dc1dce1b470ea84ad9b0cf070261.setContent(html_5ea03e59a5a54b9e8292c47ddc3d6416);
+            
+
+            marker_62d7ecfec21e468a962312fe58ca76f8.bindPopup(popup_8d42dc1dce1b470ea84ad9b0cf070261);
+
+            
+        
+    
+
+            var marker_82500cd710c04b5ba66aba6b79c833af = L.marker(
+                [1.364893,103.840427],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_8f3effd624a44632943da61eb2a908d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0399c58ed1645779fbfe90ad3324a32 = $('<div id="html_c0399c58ed1645779fbfe90ad3324a32" style="width: 100.0%; height: 100.0%;">Laser Camera @ Ang Mo Kio Avenue 1</div>')[0];
+                popup_8f3effd624a44632943da61eb2a908d5.setContent(html_c0399c58ed1645779fbfe90ad3324a32);
+            
+
+            marker_82500cd710c04b5ba66aba6b79c833af.bindPopup(popup_8f3effd624a44632943da61eb2a908d5);
+
+            
+        
+    
+
+            var marker_39b7101f2a3d418eb824dec0ccc2e0b4 = L.marker(
+                [1.378538,103.865862],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_21446fe05f22413d8b4d7d05bbc27b12 = L.popup({maxWidth: '300'});
+
+            
+                var html_edac690fba544c60b0282af5a5da29d2 = $('<div id="html_edac690fba544c60b0282af5a5da29d2" style="width: 100.0%; height: 100.0%;">Laser Camera @ Ang Mo Kio Avenue 5</div>')[0];
+                popup_21446fe05f22413d8b4d7d05bbc27b12.setContent(html_edac690fba544c60b0282af5a5da29d2);
+            
+
+            marker_39b7101f2a3d418eb824dec0ccc2e0b4.bindPopup(popup_21446fe05f22413d8b4d7d05bbc27b12);
+
+            
+        
+    
+
+            var marker_6c03f3c4b923466481e7be6fbaba3209 = L.marker(
+                [1.378424,103.865873],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_e44bc38a7a534976a167423d258aefd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_4bbbbee411cb44b1abe5ffde5177d4b8 = $('<div id="html_4bbbbee411cb44b1abe5ffde5177d4b8" style="width: 100.0%; height: 100.0%;">Laser Camera @ Ang Mo Kio Avenue 5</div>')[0];
+                popup_e44bc38a7a534976a167423d258aefd2.setContent(html_4bbbbee411cb44b1abe5ffde5177d4b8);
+            
+
+            marker_6c03f3c4b923466481e7be6fbaba3209.bindPopup(popup_e44bc38a7a534976a167423d258aefd2);
+
+            
+        
+    
+
+            var marker_e483621baa1a4d6d979c820891416e5f = L.marker(
+                [1.39212,103.837165],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_74f6a811274a4180b54be1c4ba6413b2 = L.popup({maxWidth: '300'});
+
+            
+                var html_34a110e16dbc44b49c86c809ca33663a = $('<div id="html_34a110e16dbc44b49c86c809ca33663a" style="width: 100.0%; height: 100.0%;">Laser Camera @ Lentor Avenue</div>')[0];
+                popup_74f6a811274a4180b54be1c4ba6413b2.setContent(html_34a110e16dbc44b49c86c809ca33663a);
+            
+
+            marker_e483621baa1a4d6d979c820891416e5f.bindPopup(popup_74f6a811274a4180b54be1c4ba6413b2);
+
+            
+        
+    
+
+            var marker_a5e22f9530294762b532e5633a3a54b8 = L.marker(
+                [1.39222,103.837231],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_3559a34fd7614c089a68495ed2de06f2 = L.popup({maxWidth: '300'});
+
+            
+                var html_b53b4cd239c14b8db4411e75b15d3bbf = $('<div id="html_b53b4cd239c14b8db4411e75b15d3bbf" style="width: 100.0%; height: 100.0%;">Laser Camera @ Lentor Avenue</div>')[0];
+                popup_3559a34fd7614c089a68495ed2de06f2.setContent(html_b53b4cd239c14b8db4411e75b15d3bbf);
+            
+
+            marker_a5e22f9530294762b532e5633a3a54b8.bindPopup(popup_3559a34fd7614c089a68495ed2de06f2);
+
+            
+        
+    
+
+            var marker_62f8a74222764676965f1ba8fcd2e209 = L.marker(
+                [1.363822,103.828125],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_44752a0d5f09466786fa5bdd615375d7);
+            
+    
+            var popup_6ce08d6b9e984620a242e4ecb24bd469 = L.popup({maxWidth: '300'});
+
+            
+                var html_09b300aa64194723aede9b45e8705d88 = $('<div id="html_09b300aa64194723aede9b45e8705d88" style="width: 100.0%; height: 100.0%;">Laser Camera @ Upper Thomson Road</div>')[0];
+                popup_6ce08d6b9e984620a242e4ecb24bd469.setContent(html_09b300aa64194723aede9b45e8705d88);
+            
+
+            marker_62f8a74222764676965f1ba8fcd2e209.bindPopup(popup_6ce08d6b9e984620a242e4ecb24bd469);
+
+            
+        
+</script>
